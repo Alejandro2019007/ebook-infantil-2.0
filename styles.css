@@ -5,21 +5,7 @@
     box-sizing: border-box;
 }
 
-body {<!-- Header -->
-<header class="header">
-  <div class="container">
-    <div class="logo">
-      <h1><i class="fas fa-magic"></i> No Quintal Tem Um Portal</h1>
-    </div>
-    <nav class="nav">
-      <a href="#sobre">Sobre</a>
-      <a href="#capitulos">Capítulos</a>
-      <a href="#beneficios">Benefícios</a>
-      <a href="#comprar" class="btn-nav">Comprar Agora</a>
-    </nav>
-  </div>
-</header>
-
+body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
@@ -93,7 +79,7 @@ body {<!-- Header -->
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 120px 0 80px;
+    padding: 160px 0 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
