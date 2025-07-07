@@ -79,7 +79,7 @@ body {
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 160px 0 80px;
+    padding: 120px 0 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -711,10 +711,8 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;}
-}
+        display: none;
+    }
     
     .hero-content {
         grid-template-columns: 1fr;
