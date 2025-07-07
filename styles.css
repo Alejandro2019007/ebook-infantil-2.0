@@ -710,7 +710,11 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    }
+    .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
+}
     
     .hero-content {
         grid-template-columns: 1fr;
