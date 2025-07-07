@@ -711,7 +711,7 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav {
-        display: none;
+        display: none;}
     }
     
     .hero-content {
